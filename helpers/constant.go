@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func constantFunc() {
 	const name string = "yosua richel"
 	fmt.Printf("name: %v\n", name)
 

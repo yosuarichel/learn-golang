@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func sliceFunc() {
 	var months = []string{}
 	fmt.Println("original month: ", months)
 	monthAppend := append(months, "baru")

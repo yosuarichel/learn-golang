@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func perbandinganFunc() {
 	var name string = "yosua"
 	var name2 string = "richel"
 

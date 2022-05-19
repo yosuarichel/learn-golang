@@ -1,4 +1,4 @@
-package main
+package helpers
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"strings"
 )
 
-func main() {
-	greet("Yosua Richel", 24)
+func functionFunc() {
+	Greet("Yosua Richel", 24)
 	address("Yosua", "Bukit Kencana")
 	names := []string{
 		"Yosua",
@@ -42,8 +42,13 @@ func main() {
 }
 
 // Basic function
-func greet(name string, age int8) {
+func Greet(name string, age int8) {
 	fmt.Printf("Hei, my name is %s, i'm %v years old\n", name, age)
+}
+
+// Basic function
+func greet() {
+	fmt.Println("ini dari function greet")
 }
 
 // Shorthand for same data type of arguments

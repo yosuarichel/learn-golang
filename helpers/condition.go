@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func conditionFunc() {
 	currentYear := 2022
 	bornYear := 2005
 

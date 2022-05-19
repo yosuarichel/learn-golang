@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func booleanFunc() {
 	var value1 = 100
 	var value2 = 200
 

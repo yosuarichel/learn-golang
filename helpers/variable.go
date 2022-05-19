@@ -1,6 +1,6 @@
-package main
+package helpers
 
-func main() {
+func variableFunc() {
 	var name string
 
 	name = "yosua"

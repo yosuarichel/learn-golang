@@ -1,11 +1,11 @@
-package main
+package helpers
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func pointerFunc() {
 	var firstNumber int = 4
 	var secondNumber *int = &firstNumber
 
@@ -35,4 +35,15 @@ func main() {
 	fmt.Println("memory address of firstperson = ", &firstPerson)
 	fmt.Println("value of secondperson = ", *secondPerson)
 	fmt.Println("memory address of secondperson = ", secondPerson)
+
+	// Pointer as parameter
+	var number int = 100
+	fmt.Println("before change = ", number)
+	changeValue(&number)
+	fmt.Println("after change = ", number)
+}
+
+// Pointer as paramter
+func changeValue(number *int) {
+	*number = 20
 }

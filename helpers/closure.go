@@ -1,11 +1,11 @@
-package main
+package helpers
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func closureFunc() {
 	// Colsure on variable
 	evenNumbers := func(numbers ...int) []int {
 		var result []int

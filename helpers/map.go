@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func mapFunc() {
 	// 1
 	person := map[string]string{}
 

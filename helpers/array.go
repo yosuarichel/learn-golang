@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func arrayFunc() {
 	var names [3]string
 
 	names[0] = "Yosua"

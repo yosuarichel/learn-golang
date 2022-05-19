@@ -1,8 +1,8 @@
-package main
+package helpers
 
 import "fmt"
 
-func main() {
+func conversionFunc() {
 	var bilangan int32 = 1000
 	var bilangan2 int64 = int64(bilangan)
 	var bilangan3 int8 = int8(bilangan)
